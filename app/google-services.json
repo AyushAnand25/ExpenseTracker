@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388514308472",
+    "project_id": "expensemanager-fee94",
+    "storage_bucket": "expensemanager-fee94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388514308472:android:521cbae2b90ebccacb688d",
+        "android_client_info": {
+          "package_name": "com.expensetracker.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388514308472-rjqs8stgktli9rbs08a1hrj4f1ijn8r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCC_c3vY_x7TkEF0gefKkYZloTRSHUJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388514308472-rjqs8stgktli9rbs08a1hrj4f1ijn8r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

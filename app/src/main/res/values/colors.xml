@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue1">#1155cb</color>
+    <color name="blue2">#0077B5</color>
+    <color name="blue3">#2767d6</color>
+    <color name="background">#f5f8ff</color>
+    <color name="blue3_light1">#102767d6</color>
+    <color name="purple1">#6d1bf1</color>
+    <color name="purple2">#6934bf</color>
+    <color name="appDark">#252525</color>
+    <color name="appBlue">#00B2EE</color>
+    <color name="greylight">#30B6B6B6</color>
+    <color name="grey2">#8D8D8D</color>
+    <color name="grey3">#D5D5D5</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="zomatoRed">#e34d5c</color>
+</resources>

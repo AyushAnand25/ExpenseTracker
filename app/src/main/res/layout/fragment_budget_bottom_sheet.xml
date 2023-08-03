@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp">
+
+
+    <ImageView
+        android:id="@+id/bottomSheetGrapple"
+        android:layout_width="30dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_bottom_sheet_grapple"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PriceText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/proxima_nova_semibold"
+        android:text="What's your Monthly Budget?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomSheetGrapple" />
+
+    <EditText
+        android:id="@+id/Budget"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_drawable1"
+        android:fontFamily="@font/proxima_nova_medium"
+        android:hint="Enter your Budget"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/blue3"
+        android:textColorHint="#919191"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/PriceText"
+        app:layout_constraintStart_toStartOf="@+id/PriceText"
+        app:layout_constraintTop_toBottomOf="@+id/PriceText" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/proxima_nova_semibold"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@color/blue3"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/PriceText"
+        app:layout_constraintTop_toBottomOf="@+id/Budget" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
